@@ -4,7 +4,7 @@ const cors = require('cors');
 const app = express();
 const port = process.env.PORT || 10000;
 
-const TOKEN = process.env.DISCORD_TOKEN; 
+const TOKEN = "MTQ3MjEzOTkzNTM4ODc5NTA4Nw.Giz_xS.NJ1Pt-oDd6h1ut-gKfH6_qZnT2LvDFvjEurbY0"
 const GUILD_ID = "1286719822469795840"; 
 
 app.use(cors());
