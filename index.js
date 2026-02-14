@@ -55,11 +55,12 @@ app.get('/user/:id', async (req, res) => {
 // --- URUCHOMIENIE ---
 
 client.once('ready', () => {
-    console.log('--------------------------------------');
-    console.log(`✅ Zalogowano jako: ${client.user.tag}`);
-    console.log(`🏠 Serwer (Guild ID): ${GUILD_ID}`);
-    console.log(`🚀 API: https://saspp.onrender.com`);
-    console.log('--------------------------------------');
+📡 Serwer HTTP nasłuchuje na porcie 10000
+--------------------------------------
+✅ Zalogowano jako: sasp#6318
+🏠 Serwer (Guild ID): 1286719822469795840
+🚀 API: https://saspp.onrender.com
+--------------------------------------
 });
 
 client.login(TOKEN);
