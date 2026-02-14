@@ -19,5 +19,5 @@ app.get('/user/:id', async (req, res) => {
     } catch (e) { res.status(404).json({ error: "Błąd" }); }
 });
 
-client.login(process.env.DISCORD_TOKEN);
+client.login("MTQ3MjEzOTkzNTM4ODc5NTA4Nw.GaJY0d.BYl0po7LHZAFiZfR09n7bFUKt1reH85i7X3kH0");
 app.listen(process.env.PORT || 3000);
